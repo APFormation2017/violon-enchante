@@ -19,8 +19,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
          url('fonts/loversquarrel-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-test
 }
+
 @font-face {
     font-family: 'robotoregular';
     src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
