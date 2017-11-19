@@ -21,7 +21,7 @@ jQuery(function ($) {
     
 	//Menu hamburger
 	$( '#menu-hamburger' ).click(function(){
-		$( '.noflex' ).toggleClass('cacher');
+		$( '.noflex' ).slideToggle('cacher');
 	});
 
 });

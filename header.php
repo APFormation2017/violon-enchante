@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <header class="gf">
+    <header class="gf relative">
         <div class="container">
             <div class="top flexright">
-                <div class="mail">contact@violon-enchante.fr</div>
-                <div>05 63 45 85 56</div>
+                <div class="mail"><a href="mailto:contact@violon-enchante.fr">contact@violon-enchante.fr</a></div>
+                <div class="tel"><a href="tel:+33563458556">05 63 45 85 56</a></div>
             </div>
             <div class="menu flex">
                 <div class="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-violon-enchante.png" alt="#"></a></div>

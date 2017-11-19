@@ -41,6 +41,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     margin-right: auto;
 }
 
+.relative {
+    position: relative;
+}
 .flex {
     display: flex;
     justify-content: space-between;
@@ -63,13 +66,17 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 .mail {
     margin-right: 20px;
 }
+.mail a, .tel a{
+    text-decoration: none;
+    color: white;
+}
 .right{
     text-align: right;
 }
 
 .top{
     height: 40px;
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     font-size: 1rem;
     line-height: 40px;
     border-bottom: 2px solid #1e1d1d;
@@ -82,11 +89,15 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     padding: 0 10px 0 20px;
 }
 
-.menu ul li{
-    margin-left: 30px;
+.menu ul li, .menu ul li:last-child{
+    margin-right: 25px;
     font-family: 'robotoregular';
+    font-size: :1rem;
     border-bottom: 2px solid transparent;
     transition: all 0.3s;
+}
+.menu ul li:last-child{
+     margin-right: 0;
 }
 .menu a {
     color: white;
@@ -111,8 +122,12 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 }
 
 .noflex {
-	background: rgba(0,0,0,0.8);
-	float: right
+	background: rgba(35,35,35,0.95);
+    position: absolute;
+    right: 0;
+    top:117px;
+    padding-left:30px;
+    padding-right:50px;
 }
 
 .gf{
@@ -142,6 +157,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    background-color: #c7c7c7;
+    background-blend-mode: multiply;
+/*    opacity: 0.9;*/
 }
 #intro{
     background-image: url(img/violon_1600-min.jpg);
@@ -162,7 +180,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 }
 
 .newsletter{
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     font-size: 1.5rem;
     min-height: 50px;
     line-height: 50px;
@@ -231,7 +249,7 @@ footer{
 }
 
 .titre-section {
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     font-size: 2.5rem;
     color: #b69a66;
     margin-bottom: 100px;
@@ -243,7 +261,7 @@ footer{
     margin-bottom: 40px;
 }
 .resume-section, .resume-section #Content{
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     font-size: 1rem;
     color:white;
     line-height: 1.7rem;
@@ -251,11 +269,10 @@ footer{
     
 }
 .bouton {
-	margin: 70px auto;
-	width: 160px;
+	display: flex;
 }
 #presentation a, #concerts a, #exception a {
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     color:white;
     text-decoration: none;
     text-transform: uppercase;
@@ -280,12 +297,12 @@ footer{
 .titre-footer{
     font-size: 30px;
     color: #a88e5e;
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     margin-bottom: 20px;
     
 }
 .texte-footer{
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     font-size: 20px;
     color: white;
     margin-bottom: 40px;
@@ -322,7 +339,7 @@ footer{
 
 .bloc-boutique,.bloc-atelier{
     position: relative;
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     font-size: 2rem;
     text-align: center;
     line-height: 250px;
@@ -357,7 +374,7 @@ footer{
     right:0;
 }
 .bloc-boutique a, .bloc-atelier a {
-    font-family: robotoregular;
+    font-family: 'robotoregular';
     color:white;
     text-decoration: none;
     text-transform: uppercase;
@@ -1127,7 +1144,7 @@ footer{
 }
 
 /* ------------------------ */
-/* FORMULAIRE RESERVATION */
+/* FIN FORMULAIRE RESERVATION */
 /* ------------------------ */
 
 
@@ -1135,7 +1152,7 @@ footer{
 /* MEDIA QUERIES */
 /* ------------------------ */
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1240px) {
     #menu-large {
         display: none;
     }
@@ -1144,7 +1161,11 @@ footer{
     }
 }
 
-
+@media screen and (max-width: 1065px) {
+    .pieddepage .flex, .newsletter.flex {
+        justify-content: space-around;
+    }
+}
 
 /** Fin CSS- Violon Enchanté **/
 
