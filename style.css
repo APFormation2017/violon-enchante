@@ -1074,6 +1074,12 @@ footer{
     margin-bottom: 20px;
 }
 
+.reservation h2{
+    font-family: tangerineregular,sans-serif;
+}
+
+
+
 .reservation{
     width: 100%;
     min-height: 700px;
