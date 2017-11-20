@@ -340,8 +340,7 @@ footer{
 
 .bloc-boutique,.bloc-atelier{
     position: relative;
-    font-family: 'gnuolaneregular';
-    font-size: 2rem;
+
     text-align: center;
     line-height: 250px;
     color: white;
@@ -375,7 +374,8 @@ footer{
     right:0;
 }
 .bloc-boutique a, .bloc-atelier a {
-    font-family: 'robotoregular';
+    font-family: 'gnuolaneregular';
+    font-size: 2rem;
     color:white;
     text-decoration: none;
     text-transform: uppercase;
