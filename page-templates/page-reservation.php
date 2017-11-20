@@ -12,9 +12,9 @@ Template Name: Modèle page réservation
 
                     <?php while (have_posts()) : the_post(); ?>
                     <div class="interieur">
-                        <h2>
+                        <h1>
                             <?php the_title(); ?>
-                        </h2>
+                        </h1>
                     </div>
                     <?php the_post_thumbnail('thumbnail') ?>
                     <!-- Image à la une affichage vignette -->
