@@ -9,6 +9,24 @@
 
 
 
+<?php
+/*   APPEL DU CONTENU DE LA PAGE " Page Modèle – Violon d’exception "   -----------------------------------  */
+     $args= array(
+    'post_type' => 'page',
+    'page_id' => 204
+);
+
+     $the_query = new WP_Query($args);
+     while ($the_query->have_posts()) : $the_query->the_post();
+
+?>
+
+      <?php the_content();?>
+<?php endwhile; ?>
+
+
+
+
 
 <?php
 /*   APPEL DU CONTENU DE " Violon d’exception " (PRESENTATION)   -----------------------------------  */
