@@ -81,7 +81,7 @@
                     <div class="filtreCouleur"> </div>
                     
                     <div class="imageArticle">
-                        <img src="<?php the_post_thumbnail() ?>" alt="Violon d'exception Dolosy Delay">
+                        <?php the_post_thumbnail() ?>
                     </div>
                     
                     <div class="textArticle">

@@ -30,7 +30,7 @@ Template Name: Page article concerts
     <div class="presentationartisteLL">
     
     <!--    Photo de l'artiste-->
-    <div class="imgartiste-ll"><img src="<?php the_field('imageArtiste'); ?>">
+    <div class="imgartiste-ll"><?php the_field('imageArtiste'); ?>
     </div>
 
     <p><?php the_field('description'); ?></p>
