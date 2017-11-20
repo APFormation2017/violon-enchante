@@ -250,7 +250,7 @@ footer{
 }
 
 .titre-section {
-    font-family: 'robotoregular';
+    font-family: 'gnuolaneregular';
     font-size: 2.5rem;
     color: #b69a66;
     margin-bottom: 100px;
@@ -340,8 +340,7 @@ footer{
 
 .bloc-boutique,.bloc-atelier{
     position: relative;
-    font-family: 'robotoregular';
-    font-size: 2rem;
+
     text-align: center;
     line-height: 250px;
     color: white;
@@ -375,7 +374,8 @@ footer{
     right:0;
 }
 .bloc-boutique a, .bloc-atelier a {
-    font-family: 'robotoregular';
+    font-family: 'gnuolaneregular';
+    font-size: 2rem;
     color:white;
     text-decoration: none;
     text-transform: uppercase;
@@ -413,7 +413,7 @@ footer{
 
 .articleLigne {
     width: 300px;
-    min-height: 550px;
+    min-height: 570px;
     margin-right: auto;
     margin-left: auto;
     margin: 20px 0px 20px 0px;
@@ -446,7 +446,7 @@ footer{
 
 .textArticle {
     width: 300px;
-    height: 250px;
+    height: 270px;
     
     background-color: #a88e5e;
     transition: 0.5s all ease-in-out;
@@ -552,14 +552,14 @@ footer{
 }
 
 .blocDernierConcerts h2 {
-    font-family: 'robotoregular';
-    font-weight: 600;
-    font-size: 1.2rem;
+    font-family: 'gnuolaneregular';
+    font-weight: 400;
+    font-size: 1.5rem;
 
     color: white;
     text-align: center;
     text-transform: uppercase;
-    padding: 20px 10px 20px 10px;
+    padding: 20px;
 }
 
 .blocDernierConcerts p {
@@ -989,9 +989,8 @@ footer{
 
 .fondarticle-ll {
     background-color: #082a28;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    cursor:default;
+    cursor: default;
+    padding: 20px 0px;
 }
 
 .concert-ll {
@@ -1237,6 +1236,24 @@ footer{
     text-align: center;
     padding: 50px;
 }
+#woocommerce p {
+    font-family: 'robotoregular';
+    margin-bottom: 10px;
+}
+#woocommerce a {
+    text-decoration: none;
+}
+#woocommerce a img{
+    transition: all 0.3s;
+    overflow: hidden;
+
+}
+#woocommerce a:hover img{
+    transform: scale(1.05);
+}
+#woocommerce .container form {
+    margin-bottom: 20px;
+}
 
 .products {
     display: flex;
@@ -1257,18 +1274,50 @@ footer{
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 20px;
-}
-mark {
-    background-color: transparent;
+    margin-bottom: 10px;
+    color: black;
 }
 .product a {
-    color: black;
+/*    color: black;*/
+    display: block;
 }
 .product a img{
     display:inherit;
-    border: 1px solid #072927;
+    border: 1px solid #a88e5e;*
+    margin: auto;
 }
 
+.price{
+/*    text-decoration: none;*/
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'robotoregular';
+    margin-top: 10px;
+}
+
+.add_to_cart_button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'robotoregular';
+    color: #6c1102;
+/*    border: 1px solid #a88e5e;*/
+    border: 1px solid #6c1102;
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    transition: all 0.3s;
+}
+
+.add_to_cart_button:hover {
+    background-color: #6c1102;
+    color: white;
+}
+
+mark {
+    background-color: transparent;
+}
 
 /* --------------------- */
 /* MEDIA QUERIES */

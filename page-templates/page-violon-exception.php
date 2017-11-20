@@ -43,12 +43,12 @@
 
 ?>
 
-    <div class="presentationViolonDexception">
+    <section class="presentationViolonDexception">
         <div class="boxPresentation container">
             <h1><?php the_title(); ?></h1>
             <?php the_content();?>
         </div>
-    </div> 
+    </section>
       
 <?php endwhile; ?>
 
@@ -113,12 +113,12 @@
 
 ?>
 
-    <div class="presentationViolonDexception2">
+    <section class="presentationViolonDexception2">
         <div class="boxPresentation container">
             <h1><?php the_title(); ?></h1>
             <?php the_content();?>
         </div>
-    </div> 
+    </section>
       
 <?php endwhile; ?>
 
