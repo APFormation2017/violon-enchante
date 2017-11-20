@@ -9,7 +9,7 @@ Text Domain: violonenchante
 Tags: responsive, blue, white, two columns
 
 webmasterblog is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.test
+Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 
 /** CSS- Violon Enchanté **/
@@ -811,7 +811,7 @@ footer{
     background-size: cover;
     width: 100%;
     min-height: 600px;
-    padding: 40px;
+    padding: 20px;
 }
 
 .bg-canard {
@@ -933,7 +933,7 @@ footer{
 /*CSS LAURENE PAGE SINGLE********************************/
 
 .fondarticle-ll {
-    background-color: #072927;    
+    background-color: #082a28;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     cursor:default;
@@ -1057,7 +1057,7 @@ footer{
     background-color: white;
 }
 
-.btnresa a:hover{color:#072927;}
+.btnresa a:hover{color:#082a28;}
 
 /*FIN DE CSS LAURENE PAGE SIGNLE**********************************/
 
