@@ -56,8 +56,11 @@
 <?php
     /*   DEBUT ZONE APPEL DES ARTICLES DE LA CATEGORIE VIOLON EXCEPTION   -----------------------------------  */ 
 ?>
-                <div class="fondarticle-ll">
-        <!--   Article de page -->
+
+<section class="blocDernierConcerts">
+        <div class="container">
+            <h1>Nos Concerts</h1>
+            <div class="ligneBloc flex">
 
 <?php
     /*   BOUCLE D'APPEL DES ARTICLES DE LA CATEGORIE VIOLON EXCEPTION   -----------------------------------  */
@@ -70,53 +73,27 @@
         while ($the_query->have_posts()) : $the_query->the_post();
         
 ?>
-        <article class="concert-ll container2-ll">
-            <!--     Titre de l'article-->
-            <h1 class="bv">
+        <a href="<?php the_permalink(); ?>">
+                <article class="articleLigne">
 
-            </h1>
+                    <div class="filtreCouleur"> </div>
 
-            <!--    Image de l'article-->
-            <div class="imgarticle">
-                <a href="#">
-                    <?php the_post_thumbnail('large'); ?>
-                </a>
-            </div>
-
-            <div class="bv contenuarticle-ll">
-                <!--   Description article -->
-                <h2>- Description -</h2>
-                <hr class="hr1" />
-                <p>
-                    <?php the_content(); ?>
-                </p>
-
-                <!--    Présentation de l'artiste du concert-->
-                <h3>
-                    <?php the_field('nom_artiste'); ?>
-                </h3>
-                <hr class="hr2" />
-                <div class="presentationartisteLL">
-
-                    <!--    Photo de l'artiste-->
-                    <div class="imgartiste-ll"><img src="<?php the_field('image'); ?>">
+                    <div class="imageArticle">
+                        <img src="<?php the_post_thumbnail() ?>" alt="Violon d'exception Dolosy Delay">
                     </div>
 
-                    <p>
-                        <?php the_field('description'); ?>
-                    </p>
-                </div>
+                    <div class="textArticle">
+                        <h2><?php the_title(); ?></h2>
+                        <hr>
+                        <?php the_excerpt(); ?>
+                    </div>
 
-                <?php if ( in_category(16) ) {
-	echo '<div class="btnresa"><a href="<?php the_permalink(); ?>">Réserver un concert</a>
-            </div>'; }?>
-
-
-    </div>
-
-    </article>
-    <?php endwhile; ?>
-    </div>
+                </article>
+                </a>
+            <?php endwhile; ?>
+            </div>
+            </div>
+</section>
 
 
 

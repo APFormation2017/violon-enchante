@@ -550,7 +550,6 @@ footer{
 
 .boxPresentation h1 {
     font-family: 'tangerineregular';
-    font-weight: 600;
     font-size: 4.5rem;
     
     color: white;
@@ -565,7 +564,7 @@ footer{
     font-size: 1rem;
     
     color: white;
-    padding: 30px;
+    padding: 30px 0px;
     line-height: 18px;
     margin-left: auto;
     margin-right: auto;
@@ -689,6 +688,9 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #626262;
+    background-blend-mode: multiply;
+    opacity: 0.9;
 }
 
 .presentationConcert {
@@ -699,31 +701,6 @@ footer{
 
 .boxPresentation {
     height: auto;
-}
-
-.boxPresentation h1 {
-    font-family: 'tangerineregular';
-    font-weight: 600;
-    font-size: 4.5rem;
-    
-    color: white;
-    text-align: center;
-    padding: 30px 0px 30px 0px;
-}
-
-.boxPresentation p {
-    max-width: 700px;
-    font-family: 'robotoregular';
-    font-weight: 400;
-    font-size: 1rem;
-    
-    color: white;
-    padding: 30px;
-    line-height: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    text-align: justify;
 }
 
 
