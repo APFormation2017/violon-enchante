@@ -10,7 +10,7 @@
 
 
 <?php
-/*   APPEL DU CONTENU DE LA PAGE " Page Modèle – Violon d’exception "   -----------------------------------  */
+/*   APPEL DU SLIDER   -----------------------------------  */
      $args= array(
     'post_type' => 'page',
     'page_id' => 204
@@ -73,7 +73,7 @@
         <article class="concert-ll container2-ll">
             <!--     Titre de l'article-->
             <h1 class="bv">
-                <?php the_title(); ?>
+
             </h1>
 
             <!--    Image de l'article-->
