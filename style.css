@@ -1254,6 +1254,7 @@ footer{
     text-transform: none;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-top: 20px;
 }
 mark {
     background-color: transparent;
@@ -1278,6 +1279,9 @@ mark {
     #menu-hamburger {
         display: block;
     }
+    .product{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 1065px) {
@@ -1286,6 +1290,11 @@ mark {
     }
 }
 
+@media screen and (max-width: 790px) {
+    .product{
+        width: 100%;
+    }
+}
 /** Fin CSS- Violon Enchanté **/
 
 
