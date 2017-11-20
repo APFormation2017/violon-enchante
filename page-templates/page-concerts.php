@@ -98,4 +98,22 @@
 
 
 
+<?php
+/*   APPEL DU SLIDER   -----------------------------------  */
+     $args= array(
+    'post_type' => 'page',
+    'page_id' => 248
+);
+
+     $the_query = new WP_Query($args);
+     while ($the_query->have_posts()) : $the_query->the_post();
+
+?>
+
+      <?php the_content();?>
+<?php endwhile; ?>
+
+
+
+
 <?php get_footer(); ?>
