@@ -1144,6 +1144,29 @@ footer{
 /* FIN FORMULAIRE RESERVATION */
 /* ------------------------ */
 
+/* --------------------- */
+/* WOOCOMMERCE */
+/* ------------------------ */
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product{
+    width: 33%;
+    text-align: center;
+}
+.product a {
+
+}
+.product a img{
+    display:inherit;
+    border: 1px solid #072927;
+}
+
 
 /* --------------------- */
 /* MEDIA QUERIES */
