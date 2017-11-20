@@ -19,7 +19,7 @@
 
             <div class="flex">
                 <div class="flex">
-                    <div class="logofooter"><img src="http://violon-enchante.alwaysdata.net/wp-content/uploads/2017/11/logo-violon-enchante-fd-blanc.jpg" alt="#"></div>
+                    <div class="logofooter"><img src="http://violon-enchante.alwaysdata.net/wp-content/uploads/2017/11/logo-violon-enchante-fd-blanc.jpg" alt="#"><div class="mentionslegales">Mentions légales</div></div>
                     <div class="bloc-coordonnees">
                         <div class="titre-footer">Coordonnées:</div>
                         <div class="texte-footer">
