@@ -519,6 +519,79 @@ footer{
 
 
 
+
+
+/* ------------------------ */
+/*    CATEGORY CONCERTS     */
+/* ------------------------ */
+
+.blocDernierConcerts a {
+    text-decoration: none;
+}
+
+.blocDernierConcerts {
+    width: 100%;
+    height: auto;
+    background-image: url(img/background1_violon_excetion.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+
+    padding: 30px 0px;
+}
+
+
+.blocDernierConcerts h1 {
+    font-family: 'tangerineregular';
+    font-size: 4.5rem;
+
+    color: white;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.blocDernierConcerts h2 {
+    font-family: 'robotoregular';
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 10px 20px 10px;
+}
+
+.blocDernierConcerts p {
+    font-family: 'robotoregular';
+    font-weight: 400;
+    font-size: 1rem;
+
+    color: white;
+    padding: 20px;
+    line-height: 18px;
+
+    text-align: justify;
+}
+
+.blocDernierConcerts hr {
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* ------------------------ */
+/*    CATEGORY CONCERTS     */
+/* ------------------------ */
+
+
+
+
+
 /* -------------------- */
 /* PAGE VIOLON EXEPTION */
 /* -------------------- */
