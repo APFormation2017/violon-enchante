@@ -1040,7 +1040,14 @@ footer{
 
 /*CSS LAURENE MENTIONS LEGALES */
 .mentionslegales {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mentionslegales a {
     color:#6f6c6c;
+    font-family: 'robotoregular';
+    text-decoration: none;
 }
 /*FIN CSS LAURENE MENTIONS LEGALES */
 
