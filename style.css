@@ -64,7 +64,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     margin-top: -25px;
     min-width: 250px;
 }
-.mail {
+.mail, .tel {
     margin-right: 20px;
 }
 .mail a, .tel a{
@@ -81,13 +81,11 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-size: 1rem;
     line-height: 40px;
     border-bottom: 2px solid #1e1d1d;
-    padding: 0 20px;
 }
 
 .menu{
     height: 77px;
     line-height: 75px;
-    padding: 0 10px 0 20px;
 }
 
 .menu ul li, .menu ul li:last-child{
@@ -1249,6 +1247,27 @@ footer{
 }
 #woocommerce .container form {
     margin-bottom: 20px;
+}
+
+.panier a{
+    background-color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+.panier a::before{
+    font-family: 'FontAwesome';
+    content: '\f290';
+    margin-right: 10px;
+}
+
+.panier a:hover{
+/*    background-color: #a88e5e;*/
+    background-color: #072927;
+    color: white;
 }
 
 .products {

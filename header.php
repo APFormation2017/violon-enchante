@@ -20,7 +20,7 @@
                 <div class="mail"><a href="mailto:contact@violon-enchante.fr">contact@violon-enchante.fr</a></div>
                 <div class="tel"><a href="tel:+33563458556">05 63 45 85 56</a></div>
 
-                    <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'flex', 'container' => 'nav'
+                    <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'panier', 'container' => 'div'
 										   ) ); ?>
 
             </div>
