@@ -1184,9 +1184,10 @@ footer{
 }  
 
 #wpcf7-f110-p105-o1 textarea.wpcf7-form-control.wpcf7-textarea{
-    background: white;
+    background: rgba(255, 255, 255, 0);
      margin: 10px 0 10px 0;
      color:black;
+    border: 1px solid white;
 }
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-submit{
     font-size: 20px;
