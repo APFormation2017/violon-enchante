@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<section id="cj_template">
+<section id="woocommerce">
 
-<article class="cj_article-template">
+<article class="container">
    
 <?php woocommerce_content(); ?>
    
