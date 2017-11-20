@@ -3,11 +3,6 @@
 <section id="woocommerce">
 
     <article class="container">
-<!--     MENU BOUTIQUE -->
-      <div id="menu-boutique">
-                   <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'flex', 'container' => 'nav'
-										   ) ); ?>
-				</div>
 
 <!--       MISE EN PLACE DU FIL D'ARIANE -->
         <?php

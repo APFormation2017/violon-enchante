@@ -93,7 +93,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-family: 'robotoregular';
     font-size: :1rem;
     border-bottom: 2px solid transparent;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .menu ul li:last-child{
      margin-right: 0;
@@ -103,7 +103,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
-    transition: all 0.3s;
+    transition: all 0.2s;
     
 }
 .menu ul li:hover{
@@ -197,9 +197,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 .news-icone, .news-valide{
     width: 55px;
     text-align: center;
-    background-color: white;
     border: 0;
-    color: #a88e5e;
 }
 .news-saisie{
     width: calc(100% - 120px);
@@ -219,7 +217,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 .bronze-neg{
     color: #a88e5e;
-    background-color: white;
+    background-color: #fffdf9;
 }
 
 img{
@@ -279,7 +277,7 @@ footer{
     padding: 10px 15px;
     border: 2px solid white;
 	margin: 70px auto;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 #concerts a, #exception a{
     margin: 50px auto;
@@ -328,7 +326,7 @@ footer{
     padding: 18px 20px;
     border: 2px solid white;
     border-radius: 50%;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .logo-facebook a:hover {
@@ -354,7 +352,7 @@ footer{
     background-position: center;
     background-color: rgba(7, 41, 39, 0.3);
     background-blend-mode: multiply;
-    transition: all 0.3s;
+    transition: all 0.2s;
     height: 250px;
     
 }
@@ -734,7 +732,7 @@ footer{
     margin-left: auto;
     padding: 10px;
     
-    transition: 0.3s all ease;
+    transition: 0.2s all ease;
 }
 #wpcf7-f66-o1 .wpcf7-form input[type="submit"]:hover {
     color: #072927;
@@ -1239,7 +1237,7 @@ footer{
     overflow: hidden;
 }
 #woocommerce a img{
-    transition: all 0.3s;
+    transition: all 0.2s;
     margin:auto;
 }
 #woocommerce a:hover img{
@@ -1256,7 +1254,7 @@ footer{
     color: black;
     text-transform: uppercase;
     font-size: 1.2rem;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .panier a::before{
     font-family: 'FontAwesome';
@@ -1280,7 +1278,7 @@ footer{
     width: 33%;
     text-align: center;
     margin-bottom: 80px;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .product:hover{
@@ -1325,13 +1323,31 @@ footer{
     width: 50%;
     padding: 10px;
     margin: 10px auto 0 auto;
-    transition: all 0.3s;
+    transition: all 0.2s;
     margin-bottom: 15px;
 }
 
 .add_to_cart_button:hover {
     background-color: #6c1102;
     color: white;
+}
+
+/* Couleur bouton "passer commande" */
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    background-color: #072927;
+    border: 1px solid #072927;
+    transition: all 0.2s;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background-color: white;
+    border: 1px solid #072927;
+    color: #072927;
+}
+
+/* Marge entre total panier et footer */
+.cart-collaterals{
+    margin-bottom: 80px;
 }
 
 mark {
