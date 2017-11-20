@@ -1079,21 +1079,21 @@ footer{
 
 /*concert*/
 #wpcf7-f110-p105-o1 select.wpcf7-form-control.wpcf7-select{
-    background: #262020;
+    background: white;
     padding: 10px;
      margin: 10px 0 10px 0;
     color: white;
 }
 
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number{
-     background: #262020;
+     background:white;
      padding: 10px;
      margin: 10px 0 20px 0;
      color: white;
 }  
 
 #wpcf7-f110-p105-o1 textarea.wpcf7-form-control.wpcf7-textarea{
-    background: #262020;
+    background: white;
      margin: 10px 0 10px 0;
      color: white;
 }
