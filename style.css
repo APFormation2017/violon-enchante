@@ -34,6 +34,13 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'gnuolaneregular';
+    src: url('gnuolane_rg-webfont.woff2') format('woff2'),
+         url('gnuolane_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .container{
     width: 80%;
