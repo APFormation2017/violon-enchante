@@ -15,7 +15,7 @@ Template Name: Page article concerts
     
     <!--    Image de l'article-->
     <div class="imgarticle">
-         <a href="#"><?php the_field('imageGrande'); ?></a>
+         <a href="#"></a>
     </div>
 
     <div class="bv contenuarticle-ll">
