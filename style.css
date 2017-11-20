@@ -34,6 +34,13 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'gnuolaneregular';
+    src: url('gnuolane_rg-webfont.woff2') format('woff2'),
+         url('gnuolane_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .container{
     width: 80%;
@@ -872,7 +879,11 @@ footer{
     background-color: rgba(8, 42, 40, 0.8);
     width: 50%;
     height: auto;
+<<<<<<< HEAD
+    padding: 40px;
+=======
     padding: 40px 0;
+>>>>>>> origin/master
 }
 
 .cj_centre {
@@ -1212,6 +1223,29 @@ footer{
 /* ------------------------ */
 /* FIN FORMULAIRE RESERVATION */
 /* ------------------------ */
+
+/* --------------------- */
+/* WOOCOMMERCE */
+/* ------------------------ */
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product{
+    width: 33%;
+    text-align: center;
+}
+.product a {
+
+}
+.product a img{
+    display:inherit;
+    border: 1px solid #072927;
+}
 
 
 /* --------------------- */
