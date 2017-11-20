@@ -413,7 +413,7 @@ footer{
 
 .articleLigne {
     width: 300px;
-    min-height: 550px;
+    min-height: 570px;
     margin-right: auto;
     margin-left: auto;
     margin: 20px 0px 20px 0px;
@@ -446,7 +446,7 @@ footer{
 
 .textArticle {
     width: 300px;
-    height: 250px;
+    height: 270px;
     
     background-color: #a88e5e;
     transition: 0.5s all ease-in-out;
@@ -552,14 +552,14 @@ footer{
 }
 
 .blocDernierConcerts h2 {
-    font-family: 'robotoregular';
-    font-weight: 600;
-    font-size: 1.2rem;
+    font-family: 'gnuolaneregular';
+    font-weight: 400;
+    font-size: 1.5rem;
 
     color: white;
     text-align: center;
     text-transform: uppercase;
-    padding: 20px 10px 20px 10px;
+    padding: 20px;
 }
 
 .blocDernierConcerts p {
@@ -989,9 +989,8 @@ footer{
 
 .fondarticle-ll {
     background-color: #082a28;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    cursor:default;
+    cursor: default;
+    padding: 20px 0px;
 }
 
 .concert-ll {
