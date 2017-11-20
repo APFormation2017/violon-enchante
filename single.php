@@ -8,7 +8,7 @@ Template Name: Page article concerts
 
 
             <?php while (have_posts()) : the_post(); ?>
-    <div class="fondarticle-ll">
+    <section class="fondarticle-ll">
         <!--   Article de page -->
         <article class="concert-ll container2-ll">
             <!--     Titre de l'article-->
@@ -51,7 +51,7 @@ Template Name: Page article concerts
  }; ?>
             </div>
         </article>
-    </div>
+    </section>
     <?php endwhile; ?>
 
 
