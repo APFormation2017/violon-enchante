@@ -1242,14 +1242,14 @@ footer{
 }
 #woocommerce a {
     text-decoration: none;
+    overflow: hidden;
 }
 #woocommerce a img{
     transition: all 0.3s;
-    overflow: hidden;
-
+    margin:auto;
 }
 #woocommerce a:hover img{
-    transform: scale(1.05);
+
 }
 #woocommerce .container form {
     margin-bottom: 20px;
@@ -1265,8 +1265,12 @@ footer{
     width: 33%;
     text-align: center;
     margin-bottom: 80px;
+    transition: all 0.3s;
 }
 
+.product:hover{
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.14), 0 3px 9px 0 rgba(0,0,0,0.12), 0 5px 3px 1px rgba(0,0,0,0.2);
+}
 .product h2{
     font-family: 'gnuolaneregular';
     font-size: 1.5rem;
@@ -1301,13 +1305,13 @@ footer{
     font-weight: bold;
     font-family: 'robotoregular';
     color: #6c1102;
-/*    border: 1px solid #a88e5e;*/
     border: 1px solid #6c1102;
     display: inline-block;
     width: 50%;
     padding: 10px;
     margin: 10px auto 0 auto;
     transition: all 0.3s;
+    margin-bottom: 15px;
 }
 
 .add_to_cart_button:hover {
