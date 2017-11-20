@@ -416,7 +416,7 @@ footer{
     margin-right: auto;
     margin-left: auto;
     margin: 20px 0px 20px 0px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     
     overflow: hidden !important;
     position: relative;
