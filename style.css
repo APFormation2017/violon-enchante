@@ -424,7 +424,6 @@ footer{
 .imageArticle {
     width: 1000px;
     height: 300px;
-    margin-left: -300px;
     overflow: hidden !important;
 }
 .imageArticle img {
