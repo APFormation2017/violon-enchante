@@ -9,7 +9,7 @@ Text Domain: violonenchante
 Tags: responsive, blue, white, two columns
 
 webmasterblog is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.jk
+Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 
 /** CSS- Violon Enchanté **/
@@ -1051,19 +1051,26 @@ footer{
     margin-bottom: 20px;
 }
 
+.reservation h2{
+    font-family: tangerineregular,sans-serif;
+    font-size: 40px;
+}
+
+
+
 .reservation{
     width: 100%;
     min-height: 700px;
     padding-top: 10px;
     text-align: center;
     font-size: 25px;
+    font-family: robotoregular,serif,sans-serif;
 }
 
 
 /*nom prenom email*/
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
     background: #262020;
-    border-radius: 5px;
     padding: 10px;
     margin: 10px 0 10px 0;
     color: white;
@@ -1073,7 +1080,6 @@ footer{
 /*concert*/
 #wpcf7-f110-p105-o1 select.wpcf7-form-control.wpcf7-select{
     background: #262020;
-    border-radius: 5px;
     padding: 10px;
      margin: 10px 0 10px 0;
     color: white;
@@ -1081,10 +1087,9 @@ footer{
 
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number{
      background: #262020;
-     border-radius: 5px;
      padding: 10px;
      margin: 10px 0 20px 0;
-    color: white;
+     color: white;
 }  
 
 #wpcf7-f110-p105-o1 textarea.wpcf7-form-control.wpcf7-textarea{
@@ -1094,7 +1099,6 @@ footer{
 }
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-submit{
     font-size: 20px;
-    border-radius: 5px;
     padding: 10px;  
     margin-bottom: 20px;
     
