@@ -1248,6 +1248,11 @@ footer{
     font-family: 'gnuolaneregular';
     font-size: 1.5rem;
     text-transform: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+mark {
+    background-color: transparent;
 }
 .product a {
     color: black;
