@@ -15,7 +15,7 @@ Template Name: Page article concerts
     
     <!--    Image de l'article-->
     <div class="imgarticle">
-         <a href="#"><?php the_post_thumbnail('large'); ?></a>
+         <a href="#"><?php the_field('imageGrande'); ?></a>
     </div>
 
     <div class="bv contenuarticle-ll">
@@ -30,7 +30,7 @@ Template Name: Page article concerts
     <div class="presentationartisteLL">
     
     <!--    Photo de l'artiste-->
-    <div class="imgartiste-ll"><img src="<?php the_field('image'); ?>">
+    <div class="imgartiste-ll"><img src="<?php the_field('imageArtiste'); ?>">
     </div>
 
     <p><?php the_field('description'); ?></p>
