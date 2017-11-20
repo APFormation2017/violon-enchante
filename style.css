@@ -416,7 +416,6 @@ footer{
     margin-right: auto;
     margin-left: auto;
     margin: 20px 0px 20px 0px;
-    margin-bottom: 20px;
     
     overflow: hidden !important;
     position: relative;
@@ -482,6 +481,7 @@ footer{
     
     color: white;
     padding: 20px;
+    margin-bottom: 20px;
     line-height: 18px;
     
     text-align: justify;
