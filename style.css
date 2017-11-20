@@ -481,6 +481,7 @@ footer{
     
     color: white;
     padding: 20px;
+    margin-bottom: 20px;
     line-height: 18px;
     
     text-align: justify;
@@ -516,6 +517,79 @@ footer{
 /* ---------------------------- */
 /* FIN CATEGORY VIOLON EXEPTION */
 /* ---------------------------- */
+
+
+
+
+
+/* ------------------------ */
+/*    CATEGORY CONCERTS     */
+/* ------------------------ */
+
+.blocDernierConcerts a {
+    text-decoration: none;
+}
+
+.blocDernierConcerts {
+    width: 100%;
+    height: auto;
+    background-image: url(img/background1_violon_excetion.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+
+    padding: 30px 0px;
+}
+
+
+.blocDernierConcerts h1 {
+    font-family: 'tangerineregular';
+    font-size: 4.5rem;
+
+    color: white;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.blocDernierConcerts h2 {
+    font-family: 'robotoregular';
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 10px 20px 10px;
+}
+
+.blocDernierConcerts p {
+    font-family: 'robotoregular';
+    font-weight: 400;
+    font-size: 1rem;
+
+    color: white;
+    padding: 20px;
+    line-height: 18px;
+
+    text-align: justify;
+}
+
+.blocDernierConcerts hr {
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* ------------------------ */
+/*    CATEGORY CONCERTS     */
+/* ------------------------ */
+
+
 
 
 
@@ -1082,32 +1156,32 @@ footer{
 
 /*nom prenom email*/
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
-    background: #262020;
+    background: white;
     padding: 10px;
     margin: 10px 0 10px 0;
-    color: white;
+    color: black;
 }
 
 
 /*concert*/
 #wpcf7-f110-p105-o1 select.wpcf7-form-control.wpcf7-select{
-    background: #262020;
+    background: white;
     padding: 10px;
      margin: 10px 0 10px 0;
-    color: white;
+    color:black;
 }
 
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number{
-     background: #262020;
+     background:white;
      padding: 10px;
      margin: 10px 0 20px 0;
-     color: white;
+     color:black;
 }  
 
 #wpcf7-f110-p105-o1 textarea.wpcf7-form-control.wpcf7-textarea{
-    background: #262020;
+    background: white;
      margin: 10px 0 10px 0;
-     color: white;
+     color:black;
 }
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-submit{
     font-size: 20px;
@@ -1118,7 +1192,7 @@ footer{
 
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-submit:hover{
     background: #262020;
-    color: white;
+    color: black;
    
 }
 
