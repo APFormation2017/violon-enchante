@@ -422,8 +422,9 @@ footer{
 }
 
 .imageArticle {
-    width: 1000px;
+    max-width: 1000px;
     height: 300px;
+
     overflow: hidden !important;
 }
 .imageArticle img {
@@ -1004,8 +1005,8 @@ footer{
 }
 
 .imgarticle {
-    width: 100%;
-    min-height:200px;
+    max-width: 1000px;
+    max-height: 400px;
 }
 
 .concert-ll a img {
@@ -1065,7 +1066,8 @@ footer{
 }
 
 .imgartiste-ll {
-    width:48%;
+    width: 300px;
+    height: 300px;
 }
 
 .presentationartisteLL p {
