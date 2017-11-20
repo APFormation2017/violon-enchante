@@ -13,13 +13,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 
 /** CSS- Violon Enchanté **/
-@font-face {
-    font-family: 'lovers_quarrelregular';
-    src: url('fonts/loversquarrel-regular-webfont.woff2') format('woff2'),
-         url('fonts/loversquarrel-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 @font-face {
     font-family: 'robotoregular';
     src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
@@ -36,8 +30,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 }
 @font-face {
     font-family: 'gnuolaneregular';
-    src: url('gnuolane_rg-webfont.woff2') format('woff2'),
-         url('gnuolane_rg-webfont.woff') format('woff');
+    src: url('fonts/gnuolane_rg-webfont.woff2') format('woff2'),
+         url('fonts/gnuolane_rg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -1136,7 +1130,7 @@ footer{
 
 
 /* ------------------------ */
-/* FORMULAIRE RESERATION */
+/* FORMULAIRE RESERVATION */
 /* ------------------------ */
 
 
@@ -1228,6 +1222,12 @@ footer{
 /* WOOCOMMERCE */
 /* ------------------------ */
 
+#woocommerce .page-title{
+    font-family: 'tangerineregular';
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 50px;
+}
 
 .products {
     display: flex;
@@ -1238,9 +1238,16 @@ footer{
 .product{
     width: 33%;
     text-align: center;
+    margin-bottom: 80px;
+}
+
+.product h2{
+    font-family: 'robotoregular';
+    font-size: 1.5rem;
+    text-transform: none;
 }
 .product a {
-
+    color: black;
 }
 .product a img{
     display:inherit;
