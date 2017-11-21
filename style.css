@@ -127,6 +127,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     top:117px;
     padding-left:30px;
     padding-right:50px;
+    z-index: 200
 }
 
 .gf{
@@ -1387,7 +1388,7 @@ footer{
 
 
 
-.reviews_tab, .woocommerce-product-rating, .star-rating {
+#reviews, .reviews_tab, .woocommerce-product-rating, .star-rating {
     display: none;
 }
 
@@ -1409,6 +1410,7 @@ footer{
     background-color: #8fae1b;
     color: white;
     border: 1px solid #8fae1b;
+    margin-bottom: 30px;
 }
 
 .summary .single_add_to_cart_button:hover{
@@ -1453,6 +1455,18 @@ mark {
 @media screen and (max-width: 790px) {
     .products li{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mail {
+        display: none;
     }
 }
 /** Fin CSS- Violon Enchanté **/
