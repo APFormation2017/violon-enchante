@@ -1196,10 +1196,7 @@ footer{
     color: #072927;
     font-size: 1rem;
     padding: 10px 15px;
-   
 }
-
-
 
 .limite{
     color: red;
@@ -1243,12 +1240,6 @@ footer{
     transition: all 0.2s;
     margin:auto;
 }
-#woocommerce a:hover img{
-
-}
-#woocommerce .container form {
-    margin-bottom: 20px;
-}
 
 .panier a{
     background-color: white;
@@ -1279,7 +1270,7 @@ footer{
 .products li{
     width: 33%;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 20px;
     transition: all 0.2s;
 }
 
@@ -1297,7 +1288,6 @@ footer{
     color: black;
 }
 .product a {
-/*    color: black;*/
     display: block;
 }
 .product a img{
@@ -1316,13 +1306,13 @@ footer{
 }
 
 .add_to_cart_button {
+    background-color: #8fae1b;
     font-size: 1.1rem;
-    font-weight: bold;
     font-family: 'robotoregular';
-    color: #6c1102;
-    border: 1px solid #6c1102;
+    color: white;
+    border: 1px solid #8fae1b;
     display: inline-block;
-    width: 50%;
+    width: 180px;
     padding: 10px;
     margin: 10px auto 0 auto;
     transition: all 0.2s;
@@ -1330,14 +1320,16 @@ footer{
 }
 
 .add_to_cart_button:hover {
-    background-color: #6c1102;
-    color: white;
+    background-color: white;
+    color: #8fae1b;
 }
 
 /* Couleur bouton "passer commande" */
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
     background-color: #8fae1b;
     border: 1px solid #8fae1b;
+    font-size: 1.1rem;
+    font-family: 'robotoregular';
     transition: all 0.2s;
 }
 
@@ -1351,14 +1343,7 @@ footer{
     float: left;
     margin-top: 80px;
     margin-right: 50px;
-}
-
-.summary .price{
-   float:right;
-    margin-top: -35px;
-}
-.summary .cart{
-   float:right;
+    margin-bottom: 20px;
 }
 
 .summary .quantity::before {
@@ -1369,11 +1354,52 @@ footer{
 }
 .summary .quantity{
     margin-bottom: 20px;
-    text-align:right;
+    margin-top: 40px;
+}
+.woocommerce-tabs{
+    clear: both;
+}
+.woocommerce-tabs ul{
+    display: flex;
+}
+.woocommerce-tabs ul li {
+    margin-right: 20px;
+}
+.woocommerce-tabs ul li a{
+    color: grey;
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: white;
+    transition: all 0.2s;
 }
 
+.woocommerce-tabs ul li a:hover{
+    color: white;
+    background-color: grey;
+}
+
+.summary.entry-summary{
+    position: relative;
+}
+
+
+
+.reviews_tab, .woocommerce-product-rating, .star-rating {
+    display: none;
+}
+
+.product_meta{
+    position: absolute;
+    top:20px;
+    left: 0;
+}
+.product_meta .posted_in a{
+    display: inline;
+}
 .summary .single_add_to_cart_button {
     padding: 20px;
+    font-size: 1.1rem;
+    font-family: 'robotoregular';
     background-color: #8fae1b;
     color: white;
     border: 1px solid #8fae1b;
@@ -1385,6 +1411,7 @@ footer{
 }
 .related {
     clear:both;
+    margin-top: 50px;
 }
 /* Marge entre total panier et footer */
 .cart-collaterals{
@@ -1406,7 +1433,7 @@ mark {
     #menu-hamburger {
         display: block;
     }
-    .product{
+    .products li{
         width: 50%;
     }
 }
@@ -1418,7 +1445,7 @@ mark {
 }
 
 @media screen and (max-width: 790px) {
-    .product{
+    .products li{
         width: 100%;
     }
 }
