@@ -81,20 +81,13 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-size: 1rem;
     line-height: 40px;
     border-bottom: 2px solid #1e1d1d;
-<<<<<<< HEAD
     padding: 0;
-=======
->>>>>>> origin/master
 }
 
 .menu{
     height: 77px;
-<<<<<<< HEAD
     line-height: 75px;
     padding: 0px;
-=======
-    line-height: 75px;
->>>>>>> origin/master
 }
 
 .menu ul li, .menu ul li:last-child{
@@ -102,11 +95,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-family: 'robotoregular';
     font-size: :1rem;
     border-bottom: 2px solid transparent;
-<<<<<<< HEAD
     transition: all 0.3s ease;
-=======
-    transition: all 0.2s;
->>>>>>> origin/master
+
 }
 .menu ul li:last-child{
      margin-right: 0;
@@ -116,16 +106,10 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
-<<<<<<< HEAD
     transition: all 0.3s ease;
-
     display: block;
     width: 100%;
     height: 100%;
-=======
-    transition: all 0.2s;
->>>>>>> origin/master
-    
 }
 
 .menu ul li:hover, .menu ul li:focus, .menu ul li:active {
@@ -797,18 +781,10 @@ footer{
     
     transition: 0.2s all ease;
 }
-<<<<<<< HEAD
 #wpcf7-f66-o1 .wpcf7-form input[type="submit"]:hover, #wpcf7-f110-p105-o1 .wpcf7-form input[type="submit"]:hover {
     color: #072927;
     background-color: white;
     border: 2px solid white;
-=======
-#wpcf7-f66-o1 .wpcf7-form input[type="submit"]:hover {
-    color: #082a28;
-    background-color: #262020;
-
-    border: 0px solid transparent;
->>>>>>> origin/master
 }
 
 /* ------------------------ */
@@ -940,11 +916,7 @@ footer{
     border-top: 3px solid #a88e5e;
     background-color: rgba(8, 42, 40, 0.8);
     height: auto;
-<<<<<<< HEAD
     padding: 40px 0px;
-=======
-    padding: 40px;
->>>>>>> origin/master
 }
 
 .cj_centre {
@@ -1241,76 +1213,10 @@ footer{
     padding: 40px 0px 40px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-#wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
-    background: white;
-    padding: 10px;
-    margin: 10px 0 10px 0;
-    color: black;
-}
-
-
-
-#wpcf7-f110-p105-o1 select.wpcf7-form-control.wpcf7-select{
-    background: white;
-    padding: 10px;
-     margin: 10px 0 10px 0;
-    color:black;
-}
-
-#wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number{
-     background:white;
-     padding: 10px;
-     margin: 10px 0 20px 0;
-     color:black;
-}  
-
-#wpcf7-f110-p105-o1 textarea.wpcf7-form-control.wpcf7-textarea{
-     background: white;
-     margin: 10px 0 10px 0;
-     color:black;
-
-}
-#wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-submit{
-    font-size: 20px;
-    padding: 10px 15px;
-    margin-bottom: 20px;
-    background: rgba(255, 255, 255, 0);
-    border: 1px solid white;
-    color: white;
-    font-size: 1rem;
-    
-}
-
-#wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-submit:hover{
-    background: white;
-    color: #082a28;
-    font-size: 1rem;
-    padding: 10px 15px;
-}
-<<<<<<< HEAD
-*/
-
-
-
-=======
-
 .limite{
     color: red;
     font-size: 1rem;
     margin: 10px 0 10px 0;
->>>>>>> origin/master
 
 
 
@@ -1321,17 +1227,9 @@ footer{
 
 /* ------------------------ */
 /* FIN FORMULAIRE RESERVATION */
-<<<<<<< HEAD
 /* ------------------------ */
 
 
-
-
-
-
-=======
-/* ------------------------ */
->>>>>>> origin/master
 
 /* --------------------- */
 /* WOOCOMMERCE */
@@ -1359,12 +1257,8 @@ footer{
 #woocommerce a img{
     transition: all 0.2s;
     margin:auto;
-<<<<<<< HEAD
+
 }
-#woocommerce a:hover img{
-=======
-}
->>>>>>> origin/master
 
 .panier a{
     background-color: white;
@@ -1629,7 +1523,6 @@ mark {
 
 
 @media screen and (max-width: 790px) {
-<<<<<<< HEAD
 .product{
     width: 100%;
 }
@@ -1637,11 +1530,10 @@ mark {
 .containerBloc1 {
     flex-wrap: wrap;
 }
-=======
-    .products li{
-        width: 100%;
->>>>>>> origin/master
-    }
+
+.products li{
+    width: 100%;
+}
 
 
 
@@ -1677,7 +1569,6 @@ mark {
     line-height: 1.5rem;
 }
 
-<<<<<<< HEAD
 .titre-section {
     margin-bottom: 40px;
     line-height: 40px;
@@ -1817,7 +1708,6 @@ mark {
 
 
     }
-=======
 @media screen and (max-width: 590px) {
     .container {
         width: 98%;
@@ -1829,7 +1719,6 @@ mark {
         display: none;
     }
 }
->>>>>>> origin/master
 /** Fin CSS- Violon Enchanté **/
 
 
