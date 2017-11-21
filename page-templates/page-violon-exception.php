@@ -68,7 +68,7 @@
     /*   BOUCLE D'APPEL DES ARTICLES DE LA CATEGORIE VIOLON EXCEPTION   -----------------------------------  */
     $args= array(
     'showposts' => 3, /* nombre d'article */
-    'category_name'  => 'violon-dexception', /* nom de la catégorie (identifiant sans accent et majuscule) */
+    'category_name'  => 'violons-dexception', /* nom de la catégorie (identifiant sans accent et majuscule) */
     'orderby' => 'date', /* ordre par date */
 );
         $the_query = new WP_Query($args);
