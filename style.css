@@ -81,13 +81,13 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-size: 1rem;
     line-height: 40px;
     border-bottom: 2px solid #1e1d1d;
-    padding: 0 20px;
+    padding: 0;
 }
 
 .menu{
     height: 77px;
     line-height: 75px;
-    padding: 0 10px 0 20px;
+    padding: 0px;
 }
 
 .menu ul li, .menu ul li:last-child{
@@ -95,7 +95,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-family: 'robotoregular';
     font-size: :1rem;
     border-bottom: 2px solid transparent;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 .menu ul li:last-child{
      margin-right: 0;
@@ -105,18 +105,24 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
+
+    display: block;
+    width: 100%;
+    height: 100%;
     
 }
-.menu ul li:hover{
+
+.menu ul li:hover, .menu ul li:focus, .menu ul li:active {
     border-bottom: 2px solid #a88e5e;
 }
-.menu ul li:hover a {
+.menu ul li:hover a, .menu ul li:focus a, .menu ul li:active a {
     color:#a88e5e;
 }
 
 #menu-hamburger {
         display: none;
+        z-index: 10;
     }
 .cacher {
 	display: none;
@@ -173,7 +179,6 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 }
 #presentation .container, #exception .container{
     position: relative;
-    min-height: 400px;
 }
 #concerts .container{
     position: relative;
@@ -375,7 +380,7 @@ footer{
 }
 .bloc-boutique a, .bloc-atelier a {
     font-family: 'gnuolaneregular';
-    font-size: 2rem;
+    font-size: 2.5rem;
     color:white;
     text-decoration: none;
     text-transform: uppercase;
@@ -409,6 +414,9 @@ footer{
 .ligneBloc {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .articleLigne {
@@ -456,7 +464,6 @@ footer{
 
 .blocDerniereTrouvaille h1 {
     font-family: 'tangerineregular';
-    font-weight: 600;
     font-size: 4.5rem;
     
     color: white;
@@ -466,7 +473,6 @@ footer{
 
 .blocDerniereTrouvaille h2 {
     font-family: 'robotoregular';
-    font-weight: 600;
     font-size: 1.2rem;
     
     color: white;
@@ -477,7 +483,6 @@ footer{
 
 .blocDerniereTrouvaille p {
     font-family: 'robotoregular';
-    font-weight: 400;
     font-size: 1rem;
     
     color: white;
@@ -553,7 +558,6 @@ footer{
 
 .blocDernierConcerts h2 {
     font-family: 'gnuolaneregular';
-    font-weight: 400;
     font-size: 1.5rem;
 
     color: white;
@@ -564,7 +568,6 @@ footer{
 
 .blocDernierConcerts p {
     font-family: 'robotoregular';
-    font-weight: 400;
     font-size: 1rem;
 
     color: white;
@@ -612,7 +615,7 @@ footer{
     padding: 30px 0px;
 }
 
-.presentationViolonDexception2 {
+.bonDeCommande {
     height: auto;
     background-color: #072927;
     padding: 30px 0px;
@@ -634,9 +637,51 @@ footer{
 .boxPresentation p {
     max-width: 700px;
     font-family: 'robotoregular';
-    font-weight: 400;
     font-size: 1rem;
     
+    color: white;
+    padding: 30px 0px;
+    line-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: justify;
+}
+
+
+/* ----------------------------------------- */
+/* FORMULAIRE VIOLON EXEPTION ET RESERVATION */
+/* ----------------------------------------- */
+
+.reservation .limite{
+    color: red;
+    font-weight: 600;
+
+}
+.imagederriere{
+    background-image: url(img/reservation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.couleurrd{
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.reservation h1 {
+    font-family: 'tangerineregular';
+    font-size: 4.5rem;
+
+    color: white;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.reservation p {
+    max-width: 700px;
+    font-family: 'robotoregular';
+    font-size: 1rem;
+
     color: white;
     padding: 30px 0px;
     line-height: 18px;
@@ -647,25 +692,24 @@ footer{
 }
 
 
-/* -------------------------- */
-/* FORMULAIRE VIOLON EXEPTION */
-/* -------------------------- */
 
-#wpcf7-f66-o1 {
+
+
+#wpcf7-f66-o1, #wpcf7-f110-p105-o1 {
     max-width: 700px;
     
     margin-right: auto;
     margin-left: auto;
 }
 
-#wpcf7-f66-o1 .wpcf7-form {
+#wpcf7-f66-o1 .wpcf7-form, #wpcf7-f110-p105-o1 .wpcf7-form {
     max-width: 700px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#wpcf7-f66-o1 .wpcf7-form p {
+#wpcf7-f66-o1 .wpcf7-form p, #wpcf7-f110-p105-o1 .wpcf7-form p {
     width: 340px;
     padding: 10px 0px 10px 0px;
     margin: 0;
@@ -677,7 +721,11 @@ footer{
     flex-wrap: wrap;
 }
 
-#wpcf7-f66-o1 .wpcf7-form input {
+#wpcf7-f66-o1 .wpcf7-form input:focus, #wpcf7-f110-p105-o1 .wpcf7-form input:focus, #wpcf7-f66-o1 .wpcf7-form select:focus, #wpcf7-f110-p105-o1 .wpcf7-form select:focus, #wpcf7-f66-o1 .wpcf7-textarea:focus, #wpcf7-f110-p105-o1 .wpcf7-textarea:focus {
+    border: 4px solid #a88e5e;
+}
+
+#wpcf7-f66-o1 .wpcf7-form input, #wpcf7-f110-p105-o1 .wpcf7-form input {
     width: 100%;
     height: 42px;
     padding: 0px 0px 0px 10px;
@@ -687,14 +735,13 @@ footer{
     background-color: white;
     color: #262020;
 }
-#wpcf7-f66-o1 .wpcf7-form label {
+#wpcf7-f66-o1 .wpcf7-form label, #wpcf7-f110-p105-o1 .wpcf7-form label {
     width: 100%;
     margin: 0;
     padding: 0px;
-    border: 0px solid transparent;
     border-radius: 0px;
 }
-#wpcf7-f66-o1 .wpcf7-form select {
+#wpcf7-f66-o1 .wpcf7-form select, #wpcf7-f110-p105-o1 .wpcf7-form select {
     width: 100%;
     height: 42px;
     padding: 0px 0px 0px 5px;
@@ -705,23 +752,21 @@ footer{
     color: #262020;
 }
 
-#wpcf7-f66-o1 .wpcf7-textarea {
+#wpcf7-f66-o1 .wpcf7-textarea, #wpcf7-f110-p105-o1 .wpcf7-textarea {
     width: 100%;
     margin: 5px 0px 0px 0px;
-    border: 0px solid transparent;
     border-radius: 0px;
     background-color: white;
     color: #262020;
 }
 
-#wpcf7-f66-o1 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+#wpcf7-f66-o1 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
     background-color: white;
     color: #262020;
 }
 
-#wpcf7-f66-o1 .wpcf7-form input[type="submit"] {
+#wpcf7-f66-o1 .wpcf7-form input[type="submit"], #wpcf7-f110-p105-o1 .wpcf7-form input[type="submit"] {
     font-family: 'robotoregular';
-    font-weight: 600;
     font-size: 1.2rem;
     
     box-sizing: border-box;
@@ -738,11 +783,10 @@ footer{
     
     transition: 0.3s all ease;
 }
-#wpcf7-f66-o1 .wpcf7-form input[type="submit"]:hover {
+#wpcf7-f66-o1 .wpcf7-form input[type="submit"]:hover, #wpcf7-f110-p105-o1 .wpcf7-form input[type="submit"]:hover {
     color: #072927;
-    background-color: #262020;
-    
-    border: 0px solid transparent;
+    background-color: white;
+    border: 2px solid white;
 }
 
 /* ------------------------ */
@@ -837,22 +881,23 @@ footer{
     padding: 40px 0;
 }
 
+.containerBloc1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    margin: 40px auto;
+}
+
 .cj_restau-repa {
-    background-image: url(img/violon-a-restaurer.jpg);
     width: 300px;
     height: 450px;
-    float: left;
-    margin-left: 10%;
-    margin-right: 2%;
-    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .cj_restauration-reparation p {
-    margin-top: 80px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 65%;
+    padding: 20px;
 }
 
 .cj_valerie-paganini {
@@ -872,13 +917,8 @@ footer{
     margin-right: auto;
     border-top: 3px solid #a88e5e;
     background-color: rgba(8, 42, 40, 0.8);
-    width: 50%;
     height: auto;
-<<<<<<< HEAD
-    padding: 40px;
-=======
-    padding: 40px 0;
->>>>>>> origin/master
+    padding: 40px 0px;
 }
 
 .cj_centre {
@@ -888,9 +928,12 @@ footer{
 }
 
 .bg-canard p {
+    max-width: 60%;
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .bg-canard h3 {
@@ -898,6 +941,7 @@ footer{
     font-family: 'tangerineregular';
     font-size: 42px;
     text-align: right;
+    padding-right: 20px;
 }
 
 /*******************************
@@ -905,9 +949,11 @@ footer{
 *******************************/
 
 
-/*******************************
-*        DEBUT PAGE TEMPLATE   *
-*******************************/
+
+
+/**************************************
+*  DEBUT PAGE TEMPLATE CLASSIQUE  *
+**************************************/
 .cj_flex-center {
     display: flex;
     justify-content: center;
@@ -982,6 +1028,8 @@ footer{
 /*******************************
 *        FIN PAGE TEMPLATE     *
 *******************************/
+
+
 
 
 
@@ -1114,9 +1162,14 @@ footer{
 
 .btnresa a:hover{color:#082a28;}
 
+
 /*FIN DE CSS LAURENE PAGE SIGNLE**********************************/
 
+
+
+
 /*CSS LAURENE MENTIONS LEGALES */
+
 .mentionslegales {
     text-align: center;
     padding-top: 20px;
@@ -1127,7 +1180,12 @@ footer{
     font-family: 'robotoregular';
     text-decoration: none;
 }
+
 /*FIN CSS LAURENE MENTIONS LEGALES */
+
+
+
+
 
 
 /* ------------------------ */
@@ -1136,9 +1194,12 @@ footer{
 
 
 .interieur{
-    color: white;
+    font-family: 'tangerineregular';
     font-size: 4.5rem;
-    margin-bottom: 20px;
+
+    color: white;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
 }
 
 .reservation h1{
@@ -1151,14 +1212,21 @@ footer{
 .reservation{
     width: 100%;
     min-height: 700px;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 1rem;
-    font-family: robotoregular,serif,sans-serif;
+    padding: 40px 0px 40px 0px;
 }
 
 
-/*nom prenom email*/
+
+
+
+
+
+
+
+
+
+
+/*
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
     background: white;
     padding: 10px;
@@ -1167,7 +1235,7 @@ footer{
 }
 
 
-/*concert*/
+
 #wpcf7-f110-p105-o1 select.wpcf7-form-control.wpcf7-select{
     background: white;
     padding: 10px;
@@ -1206,25 +1274,27 @@ footer{
     padding: 10px 15px;
    
 }
+*/
 
 
 
-.limite{
-    color: red;
-    font-size: 20px;
-    margin: 10px 0 10px 0;
 
-}
-.imagederriere{
-    background-image: url(img/reservation.jpg);
-}
-.couleurrd{
-    background-color: rgba(0, 0, 0, 0.80);
-}
+
+
+
+
+
+
 
 /* ------------------------ */
 /* FIN FORMULAIRE RESERVATION */
 /* ------------------------ */
+
+
+
+
+
+
 
 /* --------------------- */
 /* WOOCOMMERCE */
@@ -1323,6 +1393,41 @@ mark {
     background-color: transparent;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------- */
 /* MEDIA QUERIES */
 /* ------------------------ */
@@ -1339,18 +1444,218 @@ mark {
     }
 }
 
+#menu-hamburger {
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1065px) {
     .pieddepage .flex, .newsletter.flex {
         justify-content: space-around;
     }
+
+.bg-canard p  {
+    max-width: 80%;
 }
+    }
+
+
+
 
 @media screen and (max-width: 790px) {
-    .product{
-        width: 100%;
-    }
+.product{
+    width: 100%;
 }
+
+.containerBloc1 {
+    flex-wrap: wrap;
+}
+    }
+
+
+
+@media screen and (max-width: 405px) {
+/*         ACCUEIL          */
+
+.container {
+    width: 100%;
+}
+
+.top{
+    font-size: 0.875rem;
+    padding: 0px 20px;
+}
+
+.mail {
+    margin-right: 10px;
+}
+
+.menu {
+    padding: 0px 20px;
+}
+
+.resume-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.resume-section p {
+    text-align: justify;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.titre-section {
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+#presentation a, #concerts a, #exception a {
+    margin: 40px auto 0px auto;
+}
+
+
+
+/*      CONCERTS ET VIOLONS EXCEPTION       */
+
+.presentationConcert, .blocDernierConcerts, .presentationViolonDexception, .blocDerniereTrouvaille {
+    padding: 40px 20px 40px 20px;
+}
+
+
+.presentationConcert h1, .blocDernierConcerts h1, .presentationViolonDexception h1, .blocDerniereTrouvaille h1, .bonDeCommande h1 {
+    padding: 0px 0px 40px 0px;
+}
+
+.presentationConcert p, .blocDernierConcerts p, .presentationViolonDexception p, .blocDerniereTrouvaille p {
+    padding: 0px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.bonDeCommande .boxPresentation  p {
+    font-size: 0.875rem;
+    padding: 0px 20px 40px 20px;
+    line-height: 1.5rem;
+}
+
+.blocDernierConcerts hr, .blocDerniereTrouvaille hr {
+    margin-bottom: 20px;
+}
+
+.blocDernierConcerts p, .blocDerniereTrouvaille p, .bonDeCommande p {
+    padding: 0px 20px 0px 20px;
+}
+
+.articleLigne {
+    min-height: 0px;
+    height: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textArticle {
+    min-height: 0px;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+
+
+/*         CONTACT          */
+
+.cj_article-template {
+    width: 100%;
+}
+
+.cj_article-template h1 {
+    padding: 0px 0px 40px 0px;
+}
+
+.cj_article-template h2 {
+    font-family: 'gnuolaneregular';
+    font-size: 1.5rem;
+    color: white;
+
+
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+
+
+
+
+/*         ATELIER          */
+#cj_atelier h2 {
+    padding: 40px 0px 40px 0px;
+}
+
+.cj_restauration-reparation p {
+    max-width: 100%;
+    margin: 40px 20px 0px 20px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.containerBloc1 {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.cj_restau-repa {
+    background-image: url(img/violon-a-restaurer.jpg);
+    width: 300px;
+    height: 450px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.cj_valerie-paganini {
+    padding: 0px;
+}
+
+.bg-canard {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0px 40px 0px;
+}
+
+.bg-canard p {
+    max-width: 100%;
+    margin: 40px 20px 0px 20px;
+    text-align: justify;
+    line-height: 1.5rem;
+    margin: 0px;
+}
+
+.bg-canard h3 {
+    padding-right: 20px;
+}
+
+
+    }
 /** Fin CSS- Violon Enchanté **/
+
+
+
 
 
 

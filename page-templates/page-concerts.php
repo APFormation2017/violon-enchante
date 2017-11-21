@@ -21,7 +21,8 @@
 
 ?>
 
-      <?php the_content();?>
+    <?php the_content();?>
+
 <?php endwhile; ?>
 
 
@@ -60,7 +61,7 @@
 <section class="blocDernierConcerts">
         <div class="container">
             <h1>Nos Concerts</h1>
-            <div class="ligneBloc flex">
+            <div class="ligneBloc">
 
 <?php
     /*   BOUCLE D'APPEL DES ARTICLES DE LA CATEGORIE VIOLON EXCEPTION   -----------------------------------  */

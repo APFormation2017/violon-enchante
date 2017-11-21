@@ -113,7 +113,7 @@
 
 ?>
 
-    <section class="presentationViolonDexception2">
+    <section class="bonDeCommande">
         <div class="boxPresentation container">
             <h1><?php the_title(); ?></h1>
             <?php the_content();?>
