@@ -64,7 +64,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     margin-top: -25px;
     min-width: 250px;
 }
-.mail {
+.mail, .tel {
     margin-right: 20px;
 }
 .mail a, .tel a{
@@ -81,13 +81,11 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-size: 1rem;
     line-height: 40px;
     border-bottom: 2px solid #1e1d1d;
-    padding: 0 20px;
 }
 
 .menu{
     height: 77px;
     line-height: 75px;
-    padding: 0 10px 0 20px;
 }
 
 .menu ul li, .menu ul li:last-child{
@@ -95,7 +93,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     font-family: 'robotoregular';
     font-size: :1rem;
     border-bottom: 2px solid transparent;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .menu ul li:last-child{
      margin-right: 0;
@@ -105,7 +103,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
-    transition: all 0.3s;
+    transition: all 0.2s;
     
 }
 .menu ul li:hover{
@@ -199,9 +197,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 .news-icone, .news-valide{
     width: 55px;
     text-align: center;
-    background-color: white;
     border: 0;
-    color: #a88e5e;
 }
 .news-saisie{
     width: calc(100% - 120px);
@@ -221,7 +217,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 .bronze-neg{
     color: #a88e5e;
-    background-color: white;
+    background-color: #fffdf9;
 }
 
 img{
@@ -281,7 +277,7 @@ footer{
     padding: 10px 15px;
     border: 2px solid white;
 	margin: 70px auto;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 #concerts a, #exception a{
     margin: 50px auto;
@@ -330,7 +326,7 @@ footer{
     padding: 18px 20px;
     border: 2px solid white;
     border-radius: 50%;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .logo-facebook a:hover {
@@ -356,7 +352,7 @@ footer{
     background-position: center;
     background-color: rgba(7, 41, 39, 0.3);
     background-blend-mode: multiply;
-    transition: all 0.3s;
+    transition: all 0.2s;
     height: 250px;
     
 }
@@ -736,7 +732,7 @@ footer{
     margin-left: auto;
     padding: 10px;
     
-    transition: 0.3s all ease;
+    transition: 0.2s all ease;
 }
 #wpcf7-f66-o1 .wpcf7-form input[type="submit"]:hover {
     color: #072927;
@@ -874,11 +870,7 @@ footer{
     background-color: rgba(8, 42, 40, 0.8);
     width: 50%;
     height: auto;
-<<<<<<< HEAD
     padding: 40px;
-=======
-    padding: 40px 0;
->>>>>>> origin/master
 }
 
 .cj_centre {
@@ -1229,8 +1221,11 @@ footer{
 /* --------------------- */
 /* WOOCOMMERCE */
 /* ------------------------ */
+#woocommerce{
+    margin-bottom: 80px;
+}
 
-#woocommerce .page-title{
+#woocommerce h1{
     font-family: 'tangerineregular';
     font-size: 4.5rem;
     text-align: center;
@@ -1242,31 +1237,55 @@ footer{
 }
 #woocommerce a {
     text-decoration: none;
+    overflow: hidden;
 }
 #woocommerce a img{
-    transition: all 0.3s;
-    overflow: hidden;
-
+    transition: all 0.2s;
+    margin:auto;
 }
 #woocommerce a:hover img{
-    transform: scale(1.05);
+
 }
 #woocommerce .container form {
     margin-bottom: 20px;
 }
 
+.panier a{
+    background-color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
+.panier a::before{
+    font-family: 'FontAwesome';
+    content: '\f290';
+    margin-right: 10px;
+}
+
+.panier a:hover{
+/*    background-color: #a88e5e;*/
+    background-color: #072927;
+    color: white;
+}
+
 .products {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
-.product{
+.products li{
     width: 33%;
     text-align: center;
-    margin-bottom: 80px;
+    margin-top: 80px;
+    transition: all 0.2s;
 }
 
+.products li:hover{
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.14), 0 3px 9px 0 rgba(0,0,0,0.12), 0 5px 3px 1px rgba(0,0,0,0.2);
+}
 .product h2{
     font-family: 'gnuolaneregular';
     font-size: 1.5rem;
@@ -1301,18 +1320,36 @@ footer{
     font-weight: bold;
     font-family: 'robotoregular';
     color: #6c1102;
-/*    border: 1px solid #a88e5e;*/
     border: 1px solid #6c1102;
     display: inline-block;
     width: 50%;
     padding: 10px;
     margin: 10px auto 0 auto;
-    transition: all 0.3s;
+    transition: all 0.2s;
+    margin-bottom: 15px;
 }
 
 .add_to_cart_button:hover {
     background-color: #6c1102;
     color: white;
+}
+
+/* Couleur bouton "passer commande" */
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    background-color: #8fae1b;
+    border: 1px solid #8fae1b;
+    transition: all 0.2s;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background-color: white;
+    border: 1px solid #8fae1b;
+    color: #8fae1b;
+}
+
+/* Marge entre total panier et footer */
+.cart-collaterals{
+    margin-bottom: 80px;
 }
 
 mark {
