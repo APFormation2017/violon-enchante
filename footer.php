@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="titre-footer">Retrouvez-nous sur:</div>
-                    <div class="logo-facebook"><a href="https://www.facebook.com/violonenchante"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></div>
+                    <div class="logo-facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></div>
                 </div>
             </div>
         </div>
