@@ -134,7 +134,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     color: white;
 }
 .bv{
-    background-color: #072927;
+    background-color: #082a28;
     color: white;
 }
 
@@ -285,7 +285,7 @@ footer{
 }
 #presentation a:hover, #concerts a:hover, #exception a:hover{
     background-color: white ;
-    color:#072927;
+    color:#082a28;
 }
 .rubrique-footer{
     margin-bottom: 20px;
@@ -610,7 +610,7 @@ footer{
 
 .presentationViolonDexception2 {
     height: auto;
-    background-color: #072927;
+    background-color: #082a28;
     padding: 30px 0px;
 }
 
@@ -735,7 +735,7 @@ footer{
     transition: 0.2s all ease;
 }
 #wpcf7-f66-o1 .wpcf7-form input[type="submit"]:hover {
-    color: #072927;
+    color: #082a28;
     background-color: #262020;
     
     border: 0px solid transparent;
@@ -1193,7 +1193,7 @@ footer{
 
 #wpcf7-f110-p105-o1 input.wpcf7-form-control.wpcf7-submit:hover{
     background: white;
-    color: #072927;
+    color: #082a28;
     font-size: 1rem;
     padding: 10px 15px;
 }
@@ -1260,7 +1260,7 @@ footer{
 
 .panier a:hover{
 /*    background-color: #a88e5e;*/
-    background-color: #072927;
+    background-color: #082a28;
     color: white;
 }
 
