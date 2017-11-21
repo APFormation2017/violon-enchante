@@ -1347,6 +1347,44 @@ footer{
     color: #8fae1b;
 }
 
+.woocommerce-product-gallery__image{
+    float: left;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
+.summary .price{
+   float:right;
+    margin-top: -35px;
+}
+.summary .cart{
+   float:right;
+}
+
+.summary .quantity::before {
+    content:"Qté : ";
+}
+.summary .quantity input{
+    width: 50px;
+}
+.summary .quantity{
+    margin-bottom: 20px;
+}
+
+.summary .single_add_to_cart_button {
+    padding: 20px;
+    background-color: #8fae1b;
+    color: white;
+    border: 1px solid #8fae1b;
+}
+
+.summary .single_add_to_cart_button:hover{
+    background-color: white;
+    color: #8fae1b;
+}
+.related {
+    clear:both;
+}
 /* Marge entre total panier et footer */
 .cart-collaterals{
     margin-bottom: 80px;
