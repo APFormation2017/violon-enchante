@@ -1221,7 +1221,9 @@ footer{
 #woocommerce{
     margin-bottom: 80px;
 }
-
+#woocommerce .container{
+    position: relative;
+}
 #woocommerce h1{
     font-family: 'tangerineregular';
     font-size: 4.5rem;
@@ -1379,7 +1381,8 @@ footer{
 }
 
 .summary.entry-summary{
-    position: relative;
+/*    position: relative;*/
+    float:left;
 }
 
 
@@ -1389,12 +1392,15 @@ footer{
 }
 
 .product_meta{
+    font-family: 'robotoregular';
+    font-size: 1rem;
     position: absolute;
     top:20px;
     left: 0;
 }
 .product_meta .posted_in a{
     display: inline;
+    color: #a88e5e;
 }
 .summary .single_add_to_cart_button {
     padding: 20px;
