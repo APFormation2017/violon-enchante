@@ -43,9 +43,7 @@ Template Name: Page article concerts
     the_field('description');
     echo '</p></div>';
 
-    echo '<div class="btnresa"><a href="';
-    the_permalink();
-    echo ' ">Réserver un concert</a></div>
+    echo '<div class="btnresa"><a href="http://violon-enchante.alwaysdata.net/reservation/?preview_id=105&preview_nonce=cc74b96f7b&_thumbnail_id=-1&preview=true">Réserver un concert</a></div>
 	 </div>';
     
  }; ?>
