@@ -18,7 +18,7 @@ Template Name: Page article concerts
 
             <!--    Image de l'article-->
             <div class="imgarticle">
-                <img src="<?php the_field('imageGrande'); ?>">
+                <img src="<?php the_field('image-grande'); ?>">
             </div>
 
             <div class="bv contenuarticle-ll">
@@ -37,7 +37,7 @@ Template Name: Page article concerts
 
 
     echo '<div class="imgartiste-ll"><img src=" ';
-    the_field('imageArtiste');
+    the_field('image-artiste');
     echo ' " ></div><p> ';
 
     the_field('description');
